@@ -1,0 +1,5 @@
+with open('1.html') as file:
+    content = file.read()
+c = content.lower.count('c++')
+p = content.lower.count('python')
+print(('c++', 'python')[p > c])
